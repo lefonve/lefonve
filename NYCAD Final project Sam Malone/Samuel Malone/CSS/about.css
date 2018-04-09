@@ -1,0 +1,27 @@
+*{
+margin: 0 auto;
+padding: 0 auto;
+
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+#navbarsExampleDefault{
+overflow: hidden;
+}
+
+
+a{
+  cursor: pointer;
+}
+
+
+footer{
+
+  text-align: center;
+  width: 100% auto;
+  padding: 40px 0 30px 0;
+  margin-top: 20px;
+}
