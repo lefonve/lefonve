@@ -1,16 +1,30 @@
-*{
-margin: 0 auto;
-padding: 0 auto;
-
+* {
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 body {
   padding-top: 3.5rem;
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 400;
+  letter-spacing: -.021em;
 }
 
-a{
+a {
   cursor: pointer;
   text-decoration-color: none;
+}
+
+p {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(51, 51, 51);
+  direction: ltr;
+  font-size: 22px;
+  font-style: normal;
+  font-synthesis: none;
+  font-weight: 300;
+
 }
 
 h4 {
@@ -18,20 +32,22 @@ h4 {
 }
 
 /* REVIEW: arrow-up published.html */
-.arrow-up{
-    display: none;
-    padding:20px;
-    color:#808080;
-    cursor: pointer;
-    position: fixed;
-    bottom:20px;
-    right:20px;
+
+.arrow-up {
+  display: none;
+  padding: 20px;
+  color: #808080;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
-footer{
-
+footer {
+  clear: both;
   text-align: center;
   width: 100% auto;
   padding: 40px 0 30px 0;
   margin-top: 20px;
 }
+
