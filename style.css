@@ -13,6 +13,10 @@ a{
   text-decoration-color: none;
 }
 
+h4 {
+  padding-bottom: 1rem;
+}
+
 /* REVIEW: arrow-up published.html */
 .arrow-up{
     display: none;
