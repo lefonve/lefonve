@@ -58,7 +58,7 @@ function validate() {
   $result.text('');
 
   if (validateEmail(email)) {
-    $result.text(email +  'Thank you, I will be in touch soon');
+    $result.text(email +  'Thank you, I will be in touch soon.');
     $result.css('color', 'green');
     console.log('VALID');
   } else {
